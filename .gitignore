@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+*.parquet
+data/
+.ipynb_checkpoints/
