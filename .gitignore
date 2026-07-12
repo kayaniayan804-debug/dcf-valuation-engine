@@ -4,3 +4,5 @@ __pycache__/
 *.parquet
 data/
 .ipynb_checkpoints/
+.venv/
+venv/

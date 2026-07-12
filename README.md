@@ -17,7 +17,21 @@ financial statements.
 - **Peer comps** tab: P/E, forward P/E, EV/EBITDA, P/S, margins
 
 ## Run it
+### Easiest (Windows)
+Double-click **`run.bat`** — it creates a private virtual environment for
+this app, installs the dependencies, and opens the app in your browser.
+
+### Manual (any OS)
 ```bash
-pip install -r requirements.txt
-streamlit run app.py
+# Windows
+py -3.12 -m venv .venv
+.venv\Scripts\activate
+python -m pip install -r requirements.txt
+python -m streamlit run app.py
+
+# macOS / Linux
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+python -m streamlit run app.py
 ```
